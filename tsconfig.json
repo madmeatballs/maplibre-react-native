@@ -16,9 +16,7 @@
     "esModuleInterop": true,
     "noUnusedLocals": true,
     "noImplicitReturns": true,
+    "typeRoots": ["./node_modules/@types", "./javascript/@types"]
   },
-  "include": [
-    "javascript/**/*", "index.ts"
-  ],
+  "include": ["javascript/**/*", "index.ts", "javascript/@types/**/*"]
 }
-
